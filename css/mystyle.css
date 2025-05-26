@@ -1,0 +1,85 @@
+
+body {
+    background: white;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Noto Sans TC', 'Muli', sans-serif;
+    color: white; /* 這裡用白色文字對比更好 */
+}
+
+.social-icons a:hover {
+    color: #62daff;
+}
+
+.expedu_icon {
+    color: #0d6efd;
+    transition: color 0.3s;
+}
+.expedu_icon:hover {
+    color: #62daff;
+}
+
+.interest-img {
+    height: 200px;
+
+}
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #0d6efd;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #495057;
+}
+
+
+.resume-section-content {
+    background: rgba(255, 230, 148, 0.6); /* 半透明黑色背景來保持可讀性 */
+    padding: 30px;
+    border-radius: 10px;
+    color: white; /* 保持文字是白色的，這樣與背景對比清晰 */
+}
+
+.experience-row {
+  display: flex;
+  gap: 20px; /* 可選：設置元素之間的間距 */
+  justify-content: space-between; /* 可選：調整排列方式，保持空間均勻分佈 */
+}
+
+.experience-card {
+  width: 48%; /* 控制每個經驗卡片的寬度，根據需求調整 */
+  border: 1px solid #ddd; /* 可以添加邊框，讓卡片更顯眼 */
+  padding: 20px;
+  background-color: rgb(255, 255, 255); /* 可選：背景色 */
+  border-radius: 8px; /* 可選：圓角 */
+}
+
+.experience-card:hover{
+    background: #f78400;
+}
+
+.licolor{
+    color: black
+}
+
+.bgimg{
+    background-image: url("../assets/img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    border: #000 1px solid;
+}
+
+p{color: #000;
+
+}
